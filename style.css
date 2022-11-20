@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prata&display=swap');
+
+body {
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+}
+
+.main-section {
+    padding: 20px;
+}
+
+.image-container {
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+
+h1 {
+    font-family: 'Prata', serif;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Prata', serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+h1, h3 {
+    margin-bottom: 0;
+}
+
+#Author {
+    font-weight: 600;
+    font-style: italic
+}
+
+h6 {
+    padding: 22px;
+    margin-bottom: 0px;
+    margin-top: 56px;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    border-bottom: 1px;
+    border-color: #dfdfdf;
+}
+
+li a {
+    text-decoration: none;
+    color: #000000ed
+}
+
+footer {
+    padding: 16px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#tetons {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Adams_The_Tetons_and_the_Snake_River.jpg/1280px-Adams_The_Tetons_and_the_Snake_River.jpg");
+}
+
+#chapel {
+    background-image: url("https://www.stjohnsjackson.org/uploads/gallery/chapeloftransfiguration-web_64_medium.jpg");
+}
+
+#cascade {
+    background-image: url("https://www.nps.gov/common/uploads/cropped_image/primary/683BE1FD-92ED-2145-FDB12957E4F7A549.jpg?width=1200&quality=90&mode=crop");
+}
+
+#jackson {
+    background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/0a/10/da/a-pristine-lake-just.jpg?w=1200&h=-1&s=1");
+}
+
+#moose {
+    background-image: url("https://www.nps.gov/common/uploads/cropped_image/primary/966BF541-D3E0-65AF-9F2280B98344E978.jpg?width=1200&quality=90&mode=crop");
+}
+
+#cascader {
+    background: linear-gradient(7deg, #57975fed, #6ed5fd5c);
+}
+#chapelr {
+    background: linear-gradient(136deg, #f3703eed, #f1ec4f5c);
+}
+#tetonsr {
+    background: linear-gradient(136deg, #000000ed, #0000005c);
+}
+#jacksonr {
+    background: linear-gradient(136deg, #62ebebed, #1ff9585c);
+}
+#mooser {
+    background: linear-gradient(136deg, #a97961ed, #5360645c);
+}
